@@ -1,9 +1,15 @@
-a = int(input("Enter a numbner: "))
+x = int(input("Enter number first:"))
+y = int(input("Enter number second:"))
+z = int(input("Enter number third:"))
 
-if(a%2 == 0):
-    num = "Even"
+if(x > y and x > z):
+    gratestnum = x
+
+elif (y > z):
+    gratestnum = y
 
 else:
-    num = "odd"
+    gratestnum = z
 
-print("The number", a, "is", num, "number.")
+
+print("Gratest number among ", x ,",", y, ",",z, "is", gratestnum)
