@@ -11,4 +11,5 @@ elif(marks >= 60 and marks < 70):
 else: 
     grade = "EF"
     
+    
 print("Your grade for marks", marks, "is",grade,".")
