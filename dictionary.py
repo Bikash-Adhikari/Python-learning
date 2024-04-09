@@ -58,6 +58,10 @@ print(student)
 print(list(student.keys()))   #=============typecasting=====Dict to list and print
 
 
+student["name"] = "Bikash Adhikari" #========= Change the value of a key on dictionary
+print(student)
+
+
 
 
 
