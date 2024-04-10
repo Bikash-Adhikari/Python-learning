@@ -56,6 +56,7 @@ print(D)
 # set has stored its value only inside the {} curly braces.
 # Duplicate values are ignored by set. If we store same value, set will execute only one value every time
 # print(lent(set))=== will print only the count of distinct value.
+# set assume and tread 9 and 9.0 as the same data type.
 
 # set is mutable [since it can be changed]
 # but elements in set are immutable [since they cant be changed]
