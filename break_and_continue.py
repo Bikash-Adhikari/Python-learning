@@ -17,3 +17,14 @@ while i <= 10:
         continue
     print(i)
     i += 1
+
+
+# print odd numbers====using CONTINUE========================
+index = 1
+while index <= 10:
+    if(index%2 != 0):
+        index += 1
+        continue  # it ternimate the odd numbers and prints numbers except odd numbers(ie even numbers)
+        
+    print(index)
+    index += 1
